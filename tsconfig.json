@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/ChatContent.jsx", "components/Chat.jsx", "pages/login.jsx", "pages/Layout.jsx", "pages/index.jsx", "pages/_app.jsx", "pages/chat/[id].jsx", "components/Sidebar.jsx", "components/Message.jsx", "components/Friend.jsx", "firebase.js", "components/Loading.tsx"],
   "exclude": ["node_modules"]
 }
