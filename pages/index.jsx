@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image"
 const Home = () => {
   return (
-    <div className="flex m-auto mt-0 mb-0 h-screen md:w-full place-content-center items-center bg-indigo-300">
+    <div className="flex m-auto mt-0 mb-0 h-screen md:w-full place-content-center items-center bg-[whitesmoke]">
       <Head>
         <title>Real Time Chat App</title>
         <link rel="icon" href="/image_processing20210104-18320-1qp0a4c.png" />

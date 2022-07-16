@@ -8,7 +8,7 @@ const Loading = () => {
           src="/image_processing20210104-18320-1qp0a4c.png"
           alt="Logo Image"
           height={200}
-          width={200}
+          width={200} 
           className="mb-3 rounded-sm"
         />
         <Circle

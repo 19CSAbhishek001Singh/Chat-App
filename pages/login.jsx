@@ -21,7 +21,7 @@ const Login = () => {
   };
 
   return (
-    <div className="grid place-items-center h-screen bg-indigo-300 ">
+    <div className="grid place-items-center h-screen ">
       <Head>
         <title>Login</title>
       </Head>
