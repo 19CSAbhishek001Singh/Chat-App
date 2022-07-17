@@ -4,7 +4,6 @@ import SearchIcon from "@mui/icons-material/Search";
 import { auth, db } from "../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { collection, addDoc} from "firebase/firestore";
-import { useEffect, useState} from "react";
 import { useCollection } from 'react-firebase-hooks/firestore';
 import getOtherEmail from './../utils/getOtherEmail';
 import {useRouter} from "next/router"

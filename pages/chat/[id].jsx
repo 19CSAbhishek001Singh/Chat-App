@@ -8,7 +8,6 @@ import { query, orderBy, doc } from 'firebase/firestore';
 import { collection } from "firebase/firestore";
 import { useAuthState } from "react-firebase-hooks/auth";
 import getOtherEmail from '../../utils/getOtherEmail';
-import { Flex } from "@chakra-ui/layout"
 import { useEffect, useRef } from 'react';
 
 const Chat = () => {
