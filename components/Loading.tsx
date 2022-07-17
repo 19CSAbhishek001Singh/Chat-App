@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { Circle } from "better-react-spinkit";
+import ClipLoader from "react-spinners/ClipLoader";
 const Loading = () => {
   return (
     <div className="grid place-items-center h-screen ">
-      <div>
+      <div className="items-center">
         <Image
           src="/image_processing20210104-18320-1qp0a4c.png"
           alt="Logo Image"
@@ -11,10 +11,10 @@ const Loading = () => {
           width={200} 
           className="mb-3 rounded-sm"
         />
-        <Circle
+        <ClipLoader
           color="indigo"
           size={60}
-          className="flex flex-col items-center"
+          className="flex flex-col ml-[70px] items-center"
         />
       </div>
     </div>
