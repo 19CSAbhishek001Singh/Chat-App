@@ -30,9 +30,19 @@ const Chat = () => {
       )
     })
 
-
+  useEffect(() => {
+     setTimeout(
+      bottomOfChat.current.scrollIntoView({
+      behavior: "smooth",
+      block: 'start',
+    }), 100);
+    return (
+      console.log("hello")
+    );
+  }, [messages]);
+  
   return (
-    <div className="flex h-full lg:w-full md:w-full w-2/5 scrollbar-hide bg-[whitesmoke]">
+    <div className="flex h-full lg:w-full md:w-full w-2/5 scrollbar-hide bg-[whitesmoke] top-0">
       <Head><title>Real Time Chat App</title></Head>
       <div className="flex-1 flex flex-col ">
         <Topbar email={getOtherEmail(chat?.users, currentUser)} />
