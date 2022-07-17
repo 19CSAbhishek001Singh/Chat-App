@@ -1,15 +1,12 @@
-import Image from "next/image";
 import ClipLoader from "react-spinners/ClipLoader";
 const Loading = () => {
   return (
-    <div className="grid place-items-center h-screen ">
+    <div className="grid place-items-center h-screen dark:bg-indigo-400">
       <div className="items-center">
-        <Image
+        <img
+          className="h-52 w-52 mb-12 rounded-3xl"
           src="/image_processing20210104-18320-1qp0a4c.png"
-          alt="Logo Image"
-          height={200}
-          width={200} 
-          className="mb-3 rounded-sm"
+          alt="LOGO Image"
         />
         <ClipLoader
           color="indigo"
