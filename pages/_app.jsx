@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import { serverTimestamp, doc, setDoc } from "@firebase/firestore";
 import Layout from "./Layout";
 function MyApp({ Component, pageProps }) {
-  const [user, loading] = useAuthState(auth);
+  const [user, loading,error] = useAuthState(auth);
   useEffect(() => {
     return auth.onIdTokenChanged(async (user) => {
       if (user) {

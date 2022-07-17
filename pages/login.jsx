@@ -8,14 +8,10 @@ const Login = () => {
     signInWithPopup(auth, provider)
       .then((result) => {
         const user = result.user;
-      })
-      .catch((error) => {
-        // Handle Errors here.
+      }).catch((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
-        // The email of the user's account used.
         const email = error.email;
-        // The credential that was used.
         const credential = OAuthProvider.credentialFromError(error);
       });
   };
