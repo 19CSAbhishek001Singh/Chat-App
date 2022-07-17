@@ -17,11 +17,11 @@ const Login = () => {
   };
 
   return (
-    <div className="grid place-items-center h-screen ">
+    <div className="grid place-items-center h-screen  ">
       <Head>
         <title>Login</title>
       </Head>
-      <div className="flex flex-col p-20 items-center bg-indigo-800 rounded-2xl shadow-lg shadow-indigo-500">
+      <div className="flex flex-col p-10 items-center rounded-2xl shadow-lg shadow-indigo-500">
         <img
           className="h-52 w-52 mb-12 rounded-3xl"
           src="/image_processing20210104-18320-1qp0a4c.png"
