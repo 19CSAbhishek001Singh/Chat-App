@@ -40,7 +40,7 @@ const Sidebar = () => {
     );
   }
   return (
-    < div className="flex lg:w-[400px] md:w-[300px] w-[200px] flex-col absolute right-0 left-0 top-0 bottom-0 bg-gray-900 text-white">
+    < div className="flex lg:w-[400px] md:w-[300px] w-full flex-col absolute right-0 left-0 top-0 bottom-0 bg-gray-900 text-white">
       <div className="h-[81px] w-full  flex items-center justify-between z-1 shadow-indigo-900 bg-gray-900">
         <div className="flex items-center lg:p-1 md:p-1 p-0">
           <Avatar src={currentUser.photoURL}   sx={{ width: 46, height: 46 }} variant="rounded"
@@ -55,7 +55,7 @@ const Sidebar = () => {
       </div>
       <div className="flex items-center p-4 rounded">
         <SearchIcon/>
-        <input placeholder="Search in chat" className="flex-1 border-none outline-none bg-gray-500 rounded p-1 m-1"
+        <input placeholder="Search in chat" className="flex-1 border-none outline-none bg-gray-500 rounded p-1 m-1 w-full"
         />
       </div>
       <Button onClick={() => newChat()} className="w-full bg-gray-500 font-bold mb-2 text-black" variant="text">Start a new chat</Button>
