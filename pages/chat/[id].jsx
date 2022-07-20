@@ -42,7 +42,7 @@ const Chat = () => {
   }, [messages]);
 
   return (
-    <div className="flex h-screen lg:w-full md:w-full w-full scrollbar-hide bg-black top-0 bottom-0">
+    <div className="flex absolute lg:w-full md:w-full w-full scrollbar-hide bg-black right-0 left-0 top-0 bottom-0">
       <Head><title>Real Time Chat App</title></Head>
       <div className="flex-1 flex flex-col w-full h-screen">
         <Topbar email={getOtherEmail(chat?.users, currentUser)} />

@@ -40,7 +40,7 @@ const Sidebar = () => {
     );
   }
   return (
-    < div className="flex lg:w-[400px] md:w-[300px] w-[200px] flex-col h-full mt-0 mb-0 top-0 bottom-0 bg-gray-900 text-white">
+    < div className="flex lg:w-[400px] md:w-[300px] w-[200px] flex-col absolute right-0 left-0 top-0 bottom-0 bg-gray-900 text-white">
       <div className="h-[81px] w-full  flex items-center justify-between z-1 shadow-indigo-900 bg-gray-900">
         <div className="flex items-center lg:p-1 md:p-1 p-0">
           <Avatar src={currentUser.photoURL}   sx={{ width: 46, height: 46 }} variant="rounded"
