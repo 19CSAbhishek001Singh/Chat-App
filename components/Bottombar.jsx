@@ -23,7 +23,7 @@ export default function Bottombar({ id, currentUser }) {
       onSubmit={sendMessage}
       as="form"
     >
-      <input placeholder="Type a message..." autoComplete="off" onChange={e => setInput(e.target.value)} value={input} className="p-3 m-0  md:w-1/2 lg:w-4/5 w-full rounded-md bg-gray-800 text-white"/>
+      <input placeholder="Type a message..." autoComplete="off" onChange={e => setInput(e.target.value)} value={input} className="p-3 m-0  md:w-1/2 lg:w-4/5 w-full rounded-md outline-0 bg-gray-800 text-white"/>
       <Button type="submit" variant="contained" className="text-white m-1 p-3 hidden  bg-black">Send</Button>
     </FormControl>
   )
